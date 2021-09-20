@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://ewoldemariam.sharepoint.com/Shared%20Documents/Forms/AllItems.aspx",
+      "customActions": {
+        "704190b7-5550-4a0c-a5f5-d68d60682d24": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Yene Gebriel"
+          }
+        }
+      }
+    },
+    "helloWorld": {
+      "pageUrl": "https://ewoldemariam.sharepoint.com/Shared%20Documents/Forms/AllItems.aspx",
+      "customActions": {
+        "704190b7-5550-4a0c-a5f5-d68d60682d24": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Yene Gebriel"
+          }
+        }
+      }
+    }
+  }
+}
